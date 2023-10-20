@@ -30,14 +30,12 @@
                         <div class="container text-center">
                             <h1 class="display-4">Las mejores zapatillas deportivas al mejor precio</h1>
                             <p class="lead">Encuentra las zapatillas que se adaptan a tu estilo y a tu deporte favorito.</p>
-                            <img src="img/logo.png" alt="">
                             <a class="btn btn-primary btn-lg"  @click="cambiarDiv('tienda')" href="#" role="button">Ver catálogo</a>
                         </div>
                     </div>
                 </div>
                 <div v-if="mostrar('tienda')">
-                    <h1>Tienda</h1>
-                    
+                    <h1>Tienda</h1>           
                     <button class="btn btn-primary"  @click="cambiarDiv('portada')">Volver a portada</button>
                     <button  class="btn btn-primary"  @click="cambiarDiv('checkout')">Finalitzar comanda</button>
 
